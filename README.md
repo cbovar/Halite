@@ -1,5 +1,7 @@
 ## Halite C# bot and tools used to train this [bot](https://halite.io/user.php?userID=2036)
 
+Actual content of the submitted zip file is in https://github.com/cbovar/Halite/tree/master/Submission.
+Halite server only compiles two files (HaliteHelper.cs and MyBot.cs) so  I had to fit all the code in those files which is not a common practice in C#.
 
 ### Steps to train an [Halite](https://halite.io/) bot using [ConvNetSharp](https://github.com/cbovar/ConvNetSharp)
 
