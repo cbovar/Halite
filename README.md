@@ -17,6 +17,8 @@ ___
 
 This will train a single network, you can use [TripleFluentNetTraining](https://github.com/cbovar/Halite/blob/master/Training/TripleFluentNetTraining.cs) instead of [FluentNetTraining](https://github.com/cbovar/Halite/blob/master/Training/FluentNetTraining.cs) to train a bot similar to _cbovar V45_
 
+![principle](https://github.com/cbovar/Halite/blob/master/img/principle.png)
+
 1) Get games historical data
 
 * Download games historical using [HltDownloader](https://github.com/cbovar/Halite/tree/master/HltDownloader). Downloaded games will stored in 'games/{UserId}/' folder. (e.g. games/2609/ for erdman)
