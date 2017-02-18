@@ -53,11 +53,9 @@
     <Compile Include="IEntry.cs" />
     <Compile Include="TripleFluentNetTraining.cs" />
     <Compile Include="FluentNetTraining.cs" />
-    <Compile Include="SingleNetTraining.cs" />
     <Compile Include="TrainingScheme.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ThreeStageTraining.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
