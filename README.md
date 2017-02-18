@@ -58,7 +58,7 @@ var net = FluentNet.Create(convInputWith, convInputWith, 3)
 ## Run locally your trained bots
 
 You can use [ComparerRunner](https://github.com/cbovar/Halite/tree/master/CompareRunner) to make your bots fight each others.
-By default, version V28 and V45 will fight each others. You can add your newly trained bot by modifying the following list(https://github.com/cbovar/Halite/blob/master/CompareRunner/Program.cs#L15):
+By default, version V28 and V45 will fight each others. You can add your newly trained bot by modifying the following [list](https://github.com/cbovar/Halite/blob/master/CompareRunner/Program.cs#L15):
 ```c#
             // List of bots
             var bots = new List<Func<IPlayer>>
