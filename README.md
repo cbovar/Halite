@@ -5,7 +5,7 @@
 
 1) Get games historical data
 
-* Download games historical using [HltDownloader](https://github.com/cbovar/Halite/tree/master/HltDownloader). Downloaded games will stored in games folder. (e.g. games/2609/ for erdman)
+* Download games historical using [HltDownloader](https://github.com/cbovar/Halite/tree/master/HltDownloader). Downloaded games will stored in 'games' folder. (e.g. games/2609/ for erdman)
 
 2) Train a network
 * Update downloaded games location [here](https://github.com/cbovar/Halite/blob/master/Training/FluentNetTraining.cs#L47)
