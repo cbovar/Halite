@@ -4,8 +4,11 @@
     {
         static void Main(string[] args)
         {
-            //FluentNetTraining.Run();
-            TripleFluentNetTraining.Run();
+            // Single Net
+            FluentNetTraining.Run();
+
+            // Triple Net
+            //TripleFluentNetTraining.Run();
         }
     }
 }
