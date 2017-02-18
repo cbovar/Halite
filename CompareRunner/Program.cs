@@ -57,13 +57,8 @@ namespace CompareRunner
 
                             if (Console.KeyAvailable)
                             {
-                                break;
+                                return;
                             }
-                        }
-
-                        if (Console.KeyAvailable)
-                        {
-                            return;
                         }
                     }
                 }
