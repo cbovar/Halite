@@ -11,6 +11,7 @@ Three different networks were trained and used in the same bot:
 - 'Strong network': to play strong pieces (> 200)
 - 'Normal network': the rest 
 
+The idea is to try to copy the strategy of another player.
 ___
 
 ### Steps to train an [Halite](https://halite.io/) bot using [ConvNetSharp](https://github.com/cbovar/ConvNetSharp) 
@@ -25,6 +26,7 @@ This will train a single network, you can use [TripleFluentNetTraining](https://
 
 2) Train a network
 * Update downloaded games location [here](https://github.com/cbovar/Halite/blob/master/Training/FluentNetTraining.cs#L47)
+* Update the name of the player to copy [here](https://github.com/cbovar/Halite/blob/master/Training/FluentNetTraining.cs#L57)
 * Update network structure [here](https://github.com/cbovar/Halite/blob/master/Training/FluentNetTraining.cs#L30). By default it is:
 
 ```c#
