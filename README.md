@@ -1,15 +1,17 @@
 ## Halite C# bot and tools used to train this [bot](https://halite.io/user.php?userID=2036)
 
 Actual content of the submitted zip file is in https://github.com/cbovar/Halite/tree/master/Submission.
-Halite server only compiles two files (HaliteHelper.cs and MyBot.cs) so  I had to fit all the code in those files which is not a common practice in C#.
+Halite server only compiles two files (_HaliteHelper.cs_ and _MyBot.cs_) so  I had to fit all the code in those files which is not a common practice in C#.
 
 Networks were trained using ~300 games from erdman v17 for a few hours using CPU.
-Three different networks were trained:
-- early part of the game
-- to play strong pieces (> 200)
-- the rest 
+Three different networks were trained and used in the same bot:
+- 'Early network': early part of the game
+- 'Strong network': to play strong pieces (> 200)
+- 'Normal network': the rest 
 
-### Steps to train an [Halite](https://halite.io/) bot using [ConvNetSharp](https://github.com/cbovar/ConvNetSharp)
+### Steps to train an [Halite](https://halite.io/) bot using [ConvNetSharp](https://github.com/cbovar/ConvNetSharp) 
+
+This will train a single network, you can use [TripleFluentNetTraining](https://github.com/cbovar/Halite/blob/master/Training/TripleFluentNetTraining.cs) instead of [FluentNetTraining](https://github.com/cbovar/Halite/blob/master/Training/FluentNetTraining.cs) to train a bot similar to _cbovar V45_
 
 1) Get games historical data
 
