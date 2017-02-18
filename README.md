@@ -35,9 +35,11 @@ var net = FluentNet.Create(convInputWith, convInputWith, 3)
   * Train_Accuracy_single.csv
   * net.dat (trained network)
 
+![training](https://github.com/cbovar/Halite/blob/master/img/learning.PNG)
+
 ## Run locally your trained bots
 
-You can [ComparerRunner](https://github.com/cbovar/Halite/tree/master/CompareRunner) to make your bot fight each others
+You can use [ComparerRunner](https://github.com/cbovar/Halite/tree/master/CompareRunner) to make your bot fight each others
 By default, version V28 and V45 (latest submission) will fight each other. You can add your newly trained bot by modifying the following list(https://github.com/cbovar/Halite/blob/master/CompareRunner/Program.cs#L15):
 ```c#
             // List of bots
