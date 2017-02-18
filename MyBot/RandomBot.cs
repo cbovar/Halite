@@ -41,13 +41,7 @@ public class DummyBot : IPlayer
             {
                 if (this.map[x, y].Owner == this.myId)
                 {
-                    Direction move = Direction.Still;
-                    var site = this.map.GetSite(x, y, this.direction);
-
-                    if (this.map[x, y].Strength > site.Strength)
-                    {
-                        move = this.direction;
-                    }
+                    Direction move = (Direction)random.Next(5);
 
                     moves.Add(new Move
                     {
